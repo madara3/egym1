@@ -1,8 +1,6 @@
-===================================================
-=																			            =
-=		EGYM demo 1 task 2 by Djeradi Djibril 2017		=
-=																			            =
-===================================================
+
+	EGYM demo 1 task 2 by Djeradi Djibril 2017
+
 
 	this is a 64 bit demo
 
@@ -12,7 +10,7 @@
 	- QT Creator 4.2.0
 	- QT 5.7.1 framework
 	- Windows 8.1 x64
-  - Visual Studio 2015 community ( compiler )
+	- Visual Studio 2015 community ( compiler )
 
 
 	Folders:
