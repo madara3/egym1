@@ -7,7 +7,7 @@
 	Requirements:
 	=============
 	- minimum 1366 x 800 screen resolution ( better a full HD monitor )
-	- up to date GPU drivers capable of OpenGL 2.0 ( tested on NVIDIA 620M & 720M )
+	- up to date GPU drivers capable of OpenGL 2.0 & non power of 2 texturing ( tested on NVIDIA 620M & 720M )
 	- QT Creator 4.2.0
 	- QT 5.7.1 framework
 	- Windows 8.1 x64
