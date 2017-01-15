@@ -11,7 +11,9 @@
 	- QT 5.7.1 framework
 	- Windows 8.1 x64
 	- Visual Studio 2015 community ( compiler )
-	- In case you need to run the app without building it you need Visual C++ Redistributable for Visual Studio 2015 ( https://www.microsoft.com/en-us/download/details.aspx?id=48145 )
+	- In case you need to run the app without building it you need Visual C++ Redistributable for Visual Studio 2015 
+	( https://www.microsoft.com/en-us/download/details.aspx?id=48145 )
+	vc_redist.x64.exe
 
 
 	Folders:
