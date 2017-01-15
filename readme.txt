@@ -26,5 +26,6 @@
 	How to build:
 	=========
 	
-	open egym.pro in QT Creator then run QMake and build
-	disable shadow build in project settings
+	open egym.pro in QT Creator
+	configure the project in settings - disable shadow build 
+	clean project then run QMake and build
