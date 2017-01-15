@@ -5,7 +5,7 @@
 =																			=
 ====================================
 
-
+	this is a 64 bit demo
 
 	Requirements:
 	=========
@@ -27,5 +27,6 @@
 	=========
 	
 	open egym.pro in QT Creator
+	choose Deskto QT 5.7.1 MSVC2015_64bit
 	configure the project in settings - disable shadow build 
 	clean project then run QMake and build
