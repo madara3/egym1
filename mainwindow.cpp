@@ -13,6 +13,8 @@
 #include <QDesktopWidget>
 #include <sstream>
 
+#include <QKeyEvent>
+
 #define MAX_WEIGHT          50
 #define MIN_WEIGHT          1
 
@@ -23,6 +25,7 @@
 
 #define BALL_HALF_HEIGHT    24.5
 #define WAVE_HALF_HEIGHT    128.5
+
 
 //----------------------------------------
 MainWindow::MainWindow(QWidget *parent) :
@@ -41,6 +44,7 @@ MainWindow::MainWindow(QWidget *parent) :
     exercising = false;
     weight = 1;
     loops_count = 0;
+    app_started = false;
 
     ui->training_progress->setVisible(false);
 
@@ -122,6 +126,7 @@ void MainWindow::start_up_clicked()
     qDebug() << "start app click";
 #endif
 
+    app_started = true;
     //anim1->initializeGL();
     ui->g1->setStyleSheet("background-image: url(:/p1/res/1.png);");
     ui->label->show();
@@ -156,6 +161,7 @@ void MainWindow::start_up_clicked()
 //----------------------------------------
 void MainWindow::logout_btn_clicked()
 {
+    app_started = false;
     this->setFixedWidth(1021);
     ui->g1->setStyleSheet("background-image: url(:/p1/res/0.png);");
     ui->label->hide();
@@ -361,7 +367,16 @@ void MainWindow::on_actionShow_hardware_Controls_triggered()//show / hide hardwa
 void MainWindow::CenterApp()
 {
    //center app in screen
-   this->setGeometry(QStyle::alignedRect(Qt::LeftToRight,Qt::AlignCenter,this->size(),qApp->desktop()->availableGeometry()));
+    this->setGeometry(QStyle::alignedRect(Qt::LeftToRight,Qt::AlignCenter,this->size(),qApp->desktop()->availableGeometry()));
+}
+//----------------------------------------
+void MainWindow::keyPressEvent(QKeyEvent *event)
+{
+    if(event->key() == Qt::Key_F1)
+    {
+        if(app_started)
+            on_actionShow_hardware_Controls_triggered();
+    }
 }
 //----------------------------------------
 MainWindow::~MainWindow()
