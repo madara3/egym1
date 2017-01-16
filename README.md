@@ -33,3 +33,10 @@
 	    - disable shadow build
 	    - choose Deskto QT 5.7.1 MSVC2015_64bit   
 	clean project then run QMake and build
+
+
+	How To Use the app:
+	===================
+
+	F1 key shows / hides the hardware controls
+	the scroller controls the ball Y value
