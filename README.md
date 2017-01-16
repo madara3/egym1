@@ -23,7 +23,8 @@
 	
 	debug - contains debug build of the demo + required debug dlls
 	release - contains release build of the demo + required dlls
-	res - contains resources used by the app
+	src - contains all source files , headers, ui
+	src/res - contains resources used by the app
 
 
 	How to build:
