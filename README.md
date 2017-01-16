@@ -47,7 +47,7 @@
 	Tested on:
 	==========
 
-	Windows 8.1 64 bit
+	Windows 8.1 64 bit, 8 GB RAM, 4 core CPU
 	NVIDIA GeForce 210
 	NVIDIA 620M
 	NVIDIA 720M 
