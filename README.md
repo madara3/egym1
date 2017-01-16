@@ -33,7 +33,7 @@
 	open egym.pro in QT Creator
 	configure the project in settings 
 	    - disable shadow build
-	    - choose Deskto QT 5.7.1 MSVC2015_64bit   
+	    - choose Desktop QT 5.7.1 MSVC2015_64bit   
 	clean project then run QMake and build
 
 
