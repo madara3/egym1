@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/p1">
+        <file>res/1.png</file>
+        <file>res/+.png</file>
+        <file>res/-.png</file>
+        <file>res/ball.png</file>
+        <file>res/end_exercice.png</file>
+        <file>res/signout.png</file>
+        <file>res/star.png</file>
+        <file>res/down0.png</file>
+        <file>res/scroller.png</file>
+        <file>res/stripes.png</file>
+        <file>res/up0.png</file>
+        <file>res/pos0.png</file>
+        <file>res/clock.png</file>
+        <file>res/progress.png</file>
+        <file>res/training0.png</file>
+        <file>res/start_exercice.png</file>
+        <file>res/all.css</file>
+        <file>res/2.png</file>
+        <file>res/wave.png</file>
+        <file>res/basketball.ico</file>
+        <file>res/2mask.png</file>
+        <file>res/0.png</file>
+        <file>res/signin_btn.png</file>
+        <file>res/plus.png</file>
+    </qresource>
+</RCC>
