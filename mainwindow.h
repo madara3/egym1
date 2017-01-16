@@ -60,6 +60,7 @@ private:
     PerfTimer* perftimer1;
 
 private:
+    bool app_started;
     int loops_count; //loops user did in exercice
     bool exercising;
     int weight;
@@ -70,6 +71,7 @@ private:
     void StopExcercice();
 
     void CenterApp();
+    void keyPressEvent(QKeyEvent* event);
 };
 
 #endif // MAINWINDOW_H
